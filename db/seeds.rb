@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+i = 0
+while i <= 200
+    Book.create!(title: "Book #{i}", author: "Author #{i + 2000}")
+end
